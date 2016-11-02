@@ -1,5 +1,8 @@
 require "rockpepescissors/version"
+require 'rockpepescissors/game'
 
 module Rockpepescissors
-  # Your code goes here...
+  def self.hello
+    puts "hey guys!!!!"
+  end
 end
